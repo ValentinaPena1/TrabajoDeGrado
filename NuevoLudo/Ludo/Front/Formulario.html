@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>LudoAprende</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <script>
+    var formSubmitted = false;
+
+    const formElements = document.getElementById("slider-container").elements;
+    for (var i = 0; i < formElements.length; i++) {
+        formElements[i].disabled = true;
+    }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="FAQ.html">
+            <span>
+              <img src="images/Logo.jpeg" href="index.html">
+            </span>
+          </a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="juegos.php"> Juegos </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="equipo.html"> Equipo de trabajo </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Estadisticas.html"> Estadisticas </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="FAQ.html"> Preguntas Frecuentes </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+        </nav>
+      </div>
+      
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section id="container-slider">	
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <ul id="slider">
+            <li style="background-image: url('images/Formulario.jpg'); z-index:0; opacity: 1;">
+              <div class="content_slider" >
+                <div>
+                  <h2>Formulario Diagnostico</h2>
+                  <p>Todo va mejor con LudoAprende</p>
+                  <a href="#question-1" class="btnSlider">Iniciar</a>
+                </div>
+              </div>
+            </li>
+          </ul> 
+          <li id="question-1" style="background-image: url('images/game2.png')" class="question-1">
+            <fieldset style="border: 1px solid #f34aa7b9; padding: 10px; background-color:#f34aa7b9;">
+              <h2>1. ¿Ha tenido el niño/a problemas de audición o visión? </h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul>
+              <button id="botonSave" class="btnSlider"><a href="#question-2">Save</a> </button>  
+            </fieldset>  
+          </li>
+          <li id="question-2"  style="background-image: url('images/leer.png'); " class="question-2">
+            <fieldset style="border: 1px solid #ce70dabd; padding: 10px; background-color:#ce70dabd;">
+              <h2>2. ¿Ha notado en el niño/a dificultades en el aprendizaje de la lectura?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-3">Save</a> </button>  
+            </fieldset> 
+          </li>
+          <li style="background-image: url('images/game2.png');" class="question-3">
+            <fieldset style="border: 1px solid #f34aa7b9; padding: 10px; background-color:#f34aa7b9;">
+              <h2>3. ¿Presenta dificultades para reconocer letras y/o para identificar el sonido que corresponde a cada letra?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-4">Save</a> </button>  
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/leer.png'); " class="question-4">
+            <fieldset style="border: 1px solid #ce70dabd; padding: 10px; background-color:#ce70dabd;">
+              <h2>4. ¿Tiene dificultades para deletrear palabras simples?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-5">Save</a> </button>  
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/game2.png'); " class="question-5">
+            <fieldset style="border: 1px solid #f34aa7b9; padding: 10px; background-color:#f34aa7b9;">
+              <h2>5. ¿Confunde letras y palabras similares entre sí (por ejemplo, confunde "d" y "b", "was" y "saw", "12" y "21")?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-6">Save</a> </button>  
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/leer.png'); " class="question-6">
+            <fieldset style="border: 1px solid #ce70dabd; padding: 10px; background-color:#ce70dabd;">
+              <h2>6. ¿Lee lentamente y con dificultad?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-7">Save</a> </button>  
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/game2.png'); " class="question-7">
+            <fieldset style="border: 1px solid #f34aa7b9; padding: 10px; background-color:#f34aa7b9;">
+              <h2>7. ¿Omite o agrega letras, palabras o frases enteras mientras lee?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+              <button id="botonSave" class="btnSlider"><a href="#question-8">Save</a> </button>  
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/leer.png'); " class="question-8">
+            <fieldset style="border: 1px solid #ce70dabd; padding: 10px; background-color:#ce70dabd;">
+              <h2>8. ¿Le resulta difícil recordar las secuencias de letras, palabras o números?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/game2.png'); " class="question-9">
+            <fieldset style="border: 1px solid #f34aa7b9; padding: 10px; background-color:#f34aa7b9;">
+            <h2>9. ¿Ha notado el niño/a dificultades para concentrarse o mantener la atención en tareas que requieren lectura o escritura? </h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+            </fieldset>
+          </li>
+          <li style="background-image: url('images/leer.png'); " class="question-10">
+            <fieldset style="border: 1px solid #ce70dabd; padding: 10px; background-color:#ce70dabd;">
+            <h2>10. ¿Lee lentamente y con dificultad?</h2>
+              <br>
+              <br>
+              <ul style="list-style-type:none;">
+                <p>Nunca  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siempre<p>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio1" name="pregunta1" value="opcion1">
+                  <br>
+                  <label for="radio1">1</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio2" name="pregunta1" value="opcion2">
+                  <br>
+                  <label for="radio2">2</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio3" name="pregunta1" value="opcion3">
+                  <br>
+                  <label for="radio2">3</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio4" name="pregunta1" value="opcion4">
+                  <br>
+                  <label for="radio2">4</label>
+                </li>
+                <li style="display:inline-block;">
+                  <input type="radio" id="radio5" name="pregunta1" value="opcion5">
+                  <br>
+                  <label for="radio2">5</label>
+                </li>
+              </ul> 
+            </fieldset>
+          </li>
+        </ul>
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+
+      </div>
+    </section>
+    <!-- end slider section -->
+    <!-- info section -->
+    <section class="info_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info-nav">
+              <h4>
+                Navegacion
+              </h4>
+              <ul>
+                <li>
+                  <a href="index.html">
+                    Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    Juegos
+                  </a>
+                </li>
+                <li>
+                  <a href="service.html">
+                    Equipo de Trabajo
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info-contact">
+              <h4>
+                Contacto
+              </h4>
+              <div class="email">
+                <h6 style="color: white;">
+                  Correo Electronico:
+                </h6>
+                <a href="">
+                  <img src="images/google-plus.png" alt="">
+                  <span>
+                    valentinapen0@gmail.com
+                  </span>
+                </a>
+              </div>
+              <div class="call">
+                <h6 style="color: white;">
+                  Telefono:
+                </h6>
+                <a href="">
+                  <img src="images/telephone.png" alt="">
+                  <span>
+                    ( +57 312 597 3444 )
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="discover">
+              <h4>
+                Redes
+              </h4>
+
+              <div class="social-box">
+                <a href="https://www.facebook.com/profile.php?id=100082680907138&mibextid=LQQJ4d">
+                  <img src="images/facebook.png" alt=""> Facebook
+                </a>
+                <br>
+                <br>
+                <a href="https://instagram.com/valepena123?igshid=YmMyMTA2M2Y=">
+                  <img src="images/instagram.png" alt="" style="width: 22px; height: 22px;">
+                  Instagram
+                </a>
+                <br>
+                <br>
+                <a href="www.linkedin.com/in/ana-valentina-peña-montero-29208012b">
+                  <img src="images/linkedin.png" alt="" style="width: 22px; height: 22px;">
+                  Linkedin
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
